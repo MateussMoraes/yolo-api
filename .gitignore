@@ -1,0 +1,57 @@
+# Arquivos compilados do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ambientes virtuais
+venv/
+env/
+*.env
+*.venv
+
+# Configurações de IDEs e editores de código
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Arquivos de log e temporários
+*.log
+*.tmp
+*.swp
+*.swo
+*.DS_Store
+
+# Arquivos de dependências
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Configuração do Jupyter Notebook
+.ipynb_checkpoints/
+
+# Arquivos gerados por testes
+.coverage
+.tox/
+nosetests.xml
+pytest_cache/
+
+# Build e distribuição
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Arquivos do Docker
+*.dockerignore
+
+# Arquivos do PyInstaller
+*.spec
+
+# Banco de dados SQLite (se estiver usando)
+*.sqlite3
+*.db
+
+# Arquivos de credenciais e configurações sensíveis
+.env
+*.key
+*.pem
+config.json
